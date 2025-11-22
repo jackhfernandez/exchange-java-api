@@ -1,0 +1,36 @@
+# Archivos de configuracion con claves sensibles
+application.properties
+config.properties
+*.env
+
+# Directorios de compilacion
+bin/
+target/
+build/
+
+# Archivos de Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# Archivos de Intellij
+.idea/
+*.iml
+
+# Archivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Archivos del so
+.DS_Store
+Thumbs.db
+
+# Dependencias locales
+lib/
