@@ -34,3 +34,7 @@ Thumbs.db
 
 # Dependencias locales
 lib/
+
+# Archivos 
+conversion_history.txt
+conversion_history.json
