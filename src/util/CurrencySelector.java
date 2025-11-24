@@ -21,7 +21,7 @@ public class CurrencySelector {
 
 	private static String selectCurrency(Scanner scanner,
 			String baseCurrency, String promptMessage) {
-		ExchangeRateService exchangeRateService = new ExchangeRateService();
+		ExchangeRateService exchangeRateService = new ExchangeRateService(promptMessage);
 		try {
 			Map<String, Double> conversionRates = exchangeRateService
 					.getAvailableCurrencies(baseCurrency);
