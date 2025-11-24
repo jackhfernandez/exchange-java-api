@@ -9,6 +9,7 @@ public class Main {
 		try {
 			frmMenu menu = new frmMenu();
 			menu.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+			menu.setLocationRelativeTo(null);
 			menu.setVisible(true);
 		} catch (Exception e) {
 			e.printStackTrace();
